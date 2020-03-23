@@ -1,0 +1,134 @@
+latelaukki@LAPTOP-NTU7IKD5:/mnt/c/Users/laukk/Documents/Ohjelmointi/ot_viikko1/tiedostoja$ git log --stat|cat
+commit 2fe8b64625ae9b2709b0d5714f19e51544c0346a
+Author: latelaukki <aaltonenlauri1@gmail.com>
+Date:   Mon Mar 16 17:37:09 2020 +0200
+
+    muutoksia
+
+ tiedostoja/file2             | 0
+ tiedostoja/{file1 => file22} | 0
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 61e6f4ee0b8bdc987ea4fd5201ad0e46876c246c
+Author: latelaukki <aaltonenlauri1@gmail.com>
+Date:   Mon Mar 16 17:03:14 2020 +0200
+
+    poisto
+
+ tiedostoja/file22 | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit caa69212d7f290aa1b4b94046e4061dcc77fc187
+Author: latelaukki <aaltonenlauri1@gmail.com>
+Date:   Mon Mar 16 17:02:29 2020 +0200
+
+    lisäys
+
+ tiedostoja/file22 | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit fe1509b067ee03513f2645f130bd993063195b59
+Author: latelaukki <aaltonenlauri1@gmail.com>
+Date:   Mon Mar 16 16:55:18 2020 +0200
+
+    kolme tiedostoa
+
+ tiedostoja/file1 | 0
+ tiedostoja/file2 | 0
+ tiedostoja/file3 | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit f116c67dbd8c77284cde2d0922f421e0d7b2dedb
+Author: latelaukki <aaltonenlauri1@gmail.com>
+Date:   Mon Mar 16 16:39:30 2020 +0200
+
+    lisää muutoksia
+
+ eka.txt    | 2 +-
+ toinen.txt | 1 +
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+
+commit c95125b01602e9efcc074ff5566500bfc6f511a0
+Author: latelaukki <aaltonenlauri1@gmail.com>
+Date:   Mon Mar 16 16:34:38 2020 +0200
+
+    tiedosto.txt poisto
+
+ tiedosto.txt | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit 363cce6daf203ee46099c814b17408fe5e92df48
+Author: latelaukki <aaltonenlauri1@gmail.com>
+Date:   Mon Mar 16 16:33:44 2020 +0200
+
+    uudelleen nimeäminen
+
+ eka.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 6cf92566201f72750103c4d04c23cb8aca9bd9ef
+Author: latelaukki <aaltonenlauri1@gmail.com>
+Date:   Mon Mar 16 16:31:55 2020 +0200
+
+    toinen.txt poisto
+
+ toinen.txt | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit b2f14309407bb485b29fb775718b578d89d1858d
+Author: latelaukki <aaltonenlauri1@gmail.com>
+Date:   Mon Mar 16 16:27:28 2020 +0200
+
+    testi muutos
+
+ stuff/testi.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit af1bc36569fd8ccb6beb93e5a655438b2406cd24
+Author: latelaukki <aaltonenlauri1@gmail.com>
+Date:   Mon Mar 16 16:08:13 2020 +0200
+
+    testi
+
+ stuff/testi.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 84106cd02c0c4d566fc6f5b285f0e6a245254cff
+Author: latelaukki <aaltonenlauri1@gmail.com>
+Date:   Mon Mar 16 16:01:35 2020 +0200
+
+    toinen ja kolmas muokkaus
+
+ kolmas.txt | 1 +
+ toinen.txt | 1 +
+ 2 files changed, 2 insertions(+)
+
+commit d874bf6226876e728d367c87a882745828c709ba
+Author: latelaukki <aaltonenlauri1@gmail.com>
+Date:   Mon Mar 16 15:59:52 2020 +0200
+
+    kolmas lisäys
+
+ kolmas.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit f6c04f0356fd5fcb8a84bfb3e50b93ee7ea08e90
+Author: latelaukki <aaltonenlauri1@gmail.com>
+Date:   Mon Mar 16 15:42:39 2020 +0200
+
+    muutos ja lisäys
+
+ tiedosto.txt | 1 +
+ toinen.txt   | 0
+ 2 files changed, 1 insertion(+)
+
+commit e704508f8f8d8dc161c5086ff18ebc86bbd5ca8c
+Author: latelaukki <aaltonenlauri1@gmail.com>
+Date:   Mon Mar 16 15:13:20 2020 +0200
+
+    tiedosto.txt luotu
+
+ tiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+tänne haluttiin vielä muutos
