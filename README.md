@@ -10,3 +10,5 @@ Tällaista tekstiä ohjeissa varmaan haluttiinkin.
 [komentorivi.txt](https://github.com/Latelaukki/ot-harjoitustyo/blob/master/laskarit/viikko1/komentorivi.txt)
 
 ja taas muutellaan..
+
+TESTIMUUTOS
