@@ -16,8 +16,9 @@ ja taas muutellaan..
 TESTIMUUTOS
 
 
-##Viikko2
+## Viikko2
 
 [requirements_spesification.md](https://github.com/Latelaukki/ot-harjoitustyo/blob/master/Documentation/requirements_spesification.md)
+
 [work_hour_tracking.md](https://github.com/Latelaukki/ot-harjoitustyo/blob/master/Documentation/work_hour_tracking.md)
 
