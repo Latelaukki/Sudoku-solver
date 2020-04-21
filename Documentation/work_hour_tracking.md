@@ -11,4 +11,14 @@ Day | Time | Progress
 4.4.  | 7 | programming solver, splitting packages, making tests
 6.4.  | 7 | programming solver, making more tests, first tries of compiling the solver, full of bugs  
 7.4.  | 7 | solving bugs on solver, implementing checkstyle and correcting most of the errors
-total | 44|
+9.4.  | 4 | fixing bugs
+10.4. | 5 | solver until row 4 which gives stackoverflow error
+11.4. | 5 | struggling with stackoverflow, refactoring pretty much everything
+13.4. | 7 | implemeting back-tracking recursion to solve function
+14.4. | 7 | solver finally working after googling and trying things
+16.4. | 1 | rehearsing javafx
+17.4. | 3 | gathering information how to implement GUI
+18.4. | 6 | trying to implement some kind of grid for ui but quite unclear how to use listeners to filter input
+19.4. | 6 | still googling, can't find easy way to present 3x3 subgrids, trying css which is not working
+21.4. | 8 | can't make GUI in time so I had to make a text UI which took way longer
+total | 96|
