@@ -20,5 +20,5 @@ Day | Time | Progress
 17.4. | 3 | gathering information how to implement GUI
 18.4. | 6 | trying to implement some kind of grid for ui but quite unclear how to use listeners to filter input
 19.4. | 6 | still googling, can't find easy way to present 3x3 subgrids, trying css which is not working
-21.4. | 8 | can't make GUI in time so I had to make a text UI which took way longer
+21.4. | 8 | can't make GUI in time so I had to make a text UI which took way longer than I thought
 total | 96|
