@@ -1,13 +1,12 @@
 
 package sudoku;
 
-import sudoku.ui.TextUi;
+import sudoku.ui.UserInterface;
 
 public class Main {
 
     public static void main(String[] args) {
-        TextUi ui = new TextUi();
+        UserInterface ui = new UserInterface();
         ui.start();
-    }
-    
-}
+    }   
+}   

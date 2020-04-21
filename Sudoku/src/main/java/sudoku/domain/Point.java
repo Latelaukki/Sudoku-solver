@@ -2,14 +2,30 @@
 package sudoku.domain;
 
 public class Point {
+    private int n;
     private int y;
     private int x;
     private int value;
+    private boolean constant;
 
     public Point(int y, int x, int value) {
         this.y = y;
         this.x = x;
         this.value = value;
+        this.constant = false;
+    }
+    
+    public void setConstant(int value) {
+        this.value = value;
+        constant = true;
+    }
+    
+    public void setNonConstantNumber(int value) {
+        this.value = value;
+    }
+    
+    public boolean isConstant() {
+        return this.constant;
     }
     
     public int getX() {
@@ -23,30 +39,4 @@ public class Point {
     public int getValue() {
         return this.value;
     }
-
-    @Override
-    public boolean equals(Object obj) {
-        if (this == obj) {
-            return true;
-        }
-        if (obj == null) {
-            return false;
-        }
-        if (getClass() != obj.getClass()) {
-            return false;
-        }
-        final Point other = (Point) obj;
-        if (this.y != other.y) {
-            return false;
-        }
-        if (this.x != other.x) {
-            return false;
-        }
-        if (this.value != other.value) {
-            return false;
-        }
-        return true;
-    }
-    
-    
 }
