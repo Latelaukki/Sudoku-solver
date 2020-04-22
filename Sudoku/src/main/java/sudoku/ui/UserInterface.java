@@ -128,8 +128,9 @@ public class UserInterface {
                         }
                         if (ans.equals("n")) {
                             break;
-                        }                       
+                        }
                     }
+                    break;
                 case 6:
                     System.out.println("Exiting solver.");
                     return;

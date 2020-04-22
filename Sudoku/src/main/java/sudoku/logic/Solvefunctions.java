@@ -101,8 +101,10 @@ public class Solvefunctions {
     
     public boolean isPossibleToSolve() {
         for (int n = 0; n < 81; n++) {
-            if (!checkTerms(n, g.getValue(n))) {
+            if (g.getValue(n) != 0) {
+                if (!checkTerms(n, g.getValue(n))) {
                 return false;
+                }
             }
         }
         return true;
