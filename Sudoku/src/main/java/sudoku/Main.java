@@ -1,12 +1,28 @@
-
 package sudoku;
 
 import javafx.application.Application;
-import sudoku.ui.UserInterface;
+import static javafx.application.Application.launch;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
 
-public class Main {
+
+public class Main extends Application {
+
+    @Override
+    public void start(Stage stage) throws Exception {
+        Parent root = FXMLLoader.load(getClass().getResource("/fxml/Scene.fxml"));
+        
+        Scene scene = new Scene(root);
+        
+        stage.setTitle("JavaFX and Maven");
+        stage.setScene(scene);
+        stage.show();
+    }
 
     public static void main(String[] args) {
-        Application.launch(UserInterface.class);
-    }   
-}   
+        launch(args);
+    }
+
+}
