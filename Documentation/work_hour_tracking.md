@@ -21,4 +21,10 @@ Day | Time | Progress
 18.4. | 6 | trying to implement some kind of grid for ui but quite unclear how to use listeners to filter input
 19.4. | 6 | still googling, can't find easy way to present 3x3 subgrids, trying css which is not working
 21.4. | 8 | can't make GUI in time so I had to make a text UI which took way longer than I thought
-total | 96|
+24.4. | 1 | tests are not working
+25.4. | 6 | learning about fxml, can't make anything work though
+26.4. | 6 | asking for help finally able to work with fxml and scene builder
+27.4. | 5 | got sudoku layout ready but after hours of googling can't still understand how to implement textfield listeners for multiple fields
+28.4. | 7 | have to still stick with text UI, can't generate jars and used 2 hours trying to fix simple typo in fxml file, no time to do new tests because still so much 
+            documentation missing 
+total |121|

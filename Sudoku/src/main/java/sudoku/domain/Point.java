@@ -1,8 +1,7 @@
 
 package sudoku.domain;
 
-public class Point {
-    private int n;
+public class Point {    
     private int y;
     private int x;
     private int value;
@@ -17,7 +16,7 @@ public class Point {
     
     public void setConstant(int value) {
         this.value = value;
-        constant = true;
+        this.constant = true;
     }
     
     public void setNonConstantNumber(int value) {
