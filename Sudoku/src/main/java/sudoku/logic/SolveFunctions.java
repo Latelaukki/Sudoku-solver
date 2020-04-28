@@ -103,7 +103,7 @@ public class SolveFunctions {
         for (int n = 0; n < 81; n++) {
             if (g.getValue(n) != 0) {
                 if (!checkTerms(n, g.getValue(n))) {
-                return false;
+                    return false;
                 }
             }
         }
