@@ -16,3 +16,41 @@ a graphical interface and let the application solve the sudoku automatically or 
 [manual.md](https://github.com/Latelaukki/ot-harjoitustyo/blob/master/Documentation/manual.md)
 
 [testing.md](https://github.com/Latelaukki/ot-harjoitustyo/blob/master/Documentation/testing.md)
+
+## Command line commands
+
+### Testing
+
+Executing tests
+
+mvn test
+
+Test coverage report
+
+mvn jacoco:report
+
+Report can be viewed in target/site/jacoco/index.html
+
+### Generating executable jar
+
+Command
+
+mvn package
+
+Generates jar-file to target-dictionary
+
+### JavaDoc
+
+JavaDoc can be generated with command
+
+mvn javadoc:javadoc
+
+JavaDoc can be viewed in target/site/apidocs/index.html
+
+### Checkstyle
+
+Style check with rules defined in checkstyle.xml
+
+mvn jxr:jxr checkstyle:checkstyle
+
+Possible errors can be viewed in target/site/checkstyle.html
