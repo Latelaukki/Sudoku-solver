@@ -25,6 +25,5 @@ Day | Time | Progress
 25.4. | 6 | learning about fxml, can't make anything work though
 26.4. | 6 | asking for help finally able to work with fxml and scene builder
 27.4. | 5 | got sudoku layout ready but after hours of googling can't still understand how to implement textfield listeners for multiple fields
-28.4. | 7 | have to still stick with text UI, can't generate jars and used 2 hours trying to fix simple typo in fxml file, no time to do new tests because still so much 
-      |   | missing documentations
+28.4. | 7 | have to still stick with text UI, can't generate jars and used 2 hours trying to fix simple typo in fxml file, no time to do new tests because still so much missing documentations
 total |121|
