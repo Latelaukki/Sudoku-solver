@@ -10,9 +10,9 @@
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sudoku.SceneController">
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sudoku.ui.SceneController">
     <children>
-        <Label fx:id="display" alignment="CENTER" layoutX="97.0" layoutY="22.0" minHeight="16" minWidth="61.0" prefHeight="17.0" prefWidth="125.0" text="SudokuSolver">
+        <Label fx:id="display1" alignment="CENTER" layoutX="97.0" layoutY="22.0" minHeight="16" minWidth="61.0" prefHeight="17.0" prefWidth="125.0" text="SudokuSolver">
          <font>
             <Font name="Arial Bold Italic" size="14.0" />
          </font></Label>

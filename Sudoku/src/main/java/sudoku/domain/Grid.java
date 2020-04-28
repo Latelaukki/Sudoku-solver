@@ -4,6 +4,7 @@ package sudoku.domain;
 import java.util.*;
 
 public class Grid {
+    
     private ArrayList<Point> points;
     
     public Grid() {

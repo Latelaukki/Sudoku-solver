@@ -3,12 +3,12 @@ package sudoku.logic;
 
 import sudoku.domain.Grid;
 
-public class Solvefunctions {
+public class SolveFunctions {
     private Grid g;
     private int[][] t;
     private boolean exit;
     
-    public Solvefunctions(Grid grid) {
+    public SolveFunctions(Grid grid) {
         this.g = grid;
         t = new int[9][9];
         int n = 0;
