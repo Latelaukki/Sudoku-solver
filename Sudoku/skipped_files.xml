@@ -6,6 +6,4 @@
 
 <suppressions>
    <suppress files="sudoku.ui.UserInterface.java" checks="[a-zA-Z0-9]*"/>
-   <suppress files="sudoku.ui.TextUi.java" checks="[a-zA-Z0-9]*"/>
-   <suppress files="SceneController.java" checks="[a-zA-Z0-9]*"/>
 </suppressions>
