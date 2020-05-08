@@ -2,7 +2,7 @@
 <!DOCTYPE module PUBLIC "-//Puppy Crawl//DTD Check Configuration 1.3//EN" "http://www.puppycrawl.com/dtds/configuration_1_3.dtd">
 <module name='Checker'>
 
-    <!-- asetetaan kieliasetukset englanniksi. -->
+     asetetaan kieliasetukset englanniksi. 
     <property name="localeCountry" value="EN"/>
     <property name="localeLanguage" value="en"/>
 
@@ -10,7 +10,7 @@
 
         <property name='tabWidth' value='4' />
 
-        <!-- Block Checks -->
+         Block Checks 
 
         <module name='EmptyBlock' />
         <module name='LeftCurly' />
@@ -25,7 +25,7 @@
         </module>
         <module name="NestedTryDepth"/>
 
-        <!-- Miscellaneous -->
+         Miscellaneous 
 
         <module name='Indentation' />
         <module name="OneStatementPerLine"/>
@@ -35,7 +35,7 @@
             <property name="countEmpty" value="false"/>
         </module>
 
-        <!--- Naming Conventions -->
+        - Naming Conventions 
 
         <module name='ClassTypeParameterName' />
         <module name='ConstantName' />
@@ -53,7 +53,7 @@
         <module name='StaticVariableName' />
         <module name='TypeName' />
 
-        <!-- Whitespace -->
+         Whitespace 
 
         <module name='GenericWhitespace' />
         <module name='EmptyForInitializerPad' />
@@ -79,7 +79,7 @@
         </module>
     </module>
 
-    <!-- File Length -->
+     File Length 
 
     <module name='FileLength'>
         <property name='max' value='500' />

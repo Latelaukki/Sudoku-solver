@@ -2,8 +2,8 @@
 package sudoku.domain;
 
 public class Point {    
-    private int y;
-    private int x;
+    final private int y;
+    final private int x;
     private int value;
     private boolean constant;
 

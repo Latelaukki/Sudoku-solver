@@ -4,9 +4,9 @@ package sudoku.logic;
 import sudoku.domain.Grid;
 
 public class SolveFunctions {
-    private Grid g;
-    private int[][] t;
-    private boolean exit;
+    final private Grid g;
+    final private int[][] t;
+    private boolean solved;
     
     public SolveFunctions(Grid grid) {
         this.g = grid;
@@ -18,12 +18,12 @@ public class SolveFunctions {
                 n++;
             }
         }
-        this.exit = false;
+        this.solved = false;
     }
     
     public void solve(int n) {
         if (n == 81) {
-            exit = true;
+            solved = true;
             return;
         }
         if (g.getValue(n) != 0) {
@@ -34,7 +34,7 @@ public class SolveFunctions {
                     setNumber(n, value);
                     solve(n + 1);  
                 }
-                if (exit) {
+                if (solved) {
                     return;
                 }
             }
