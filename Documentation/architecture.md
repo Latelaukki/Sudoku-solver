@@ -18,9 +18,11 @@ Sudoku is quite simple game and therefore the main data structure is also simple
 
 Grid class includes methods for editing the puzzle directly by adding or removing numbers from the puzzle. This methods are setNumber/addConstant, which depends whether user wants to insert their own guess or already known number, and deleteNumber.
 
-The most import function for user is the solver. This sequence diagram shows one example communication path between classes, after inserting numbers.
+This sequence diagram shows one example communication path between classes, after inserting numbers.
 
 ![sequence diagram1](https://github.com/Latelaukki/ot-harjoitustyo/blob/master/Documentation/images/r-3.png)
+
+The most import function for user is the solver. It uses back-tracking algorithm and is able to solve any level Sudoku. Algorithm goes through every point, skipping constant numbers and checks the rules of the Sudoku puzzle. Once it hits last point (81), it returns back.
 
 ## Files and game data
 
