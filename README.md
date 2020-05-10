@@ -1,8 +1,7 @@
 # SudokuApp
 
 The application offers a sudoku playing platform. The first version of the app enables user to input numbers of their choice to
-a graphical interface and let the application solve the sudoku automatically or solve it by themselves.
-
+a text interface and let the application solve the sudoku automatically or solve it by themselves. User is also able to save their game and load a previous game.
 
 
 ## Documentation
@@ -19,7 +18,7 @@ a graphical interface and let the application solve the sudoku automatically or 
 
 ## Command line commands
 
-### Testing
+### Testing (not available)
 
 Executing tests
 
@@ -39,7 +38,7 @@ Command
 
 Generates jar-file to target-dictionary
 
-### JavaDoc
+### JavaDoc (not available)
 
 JavaDoc can be generated with command
 
