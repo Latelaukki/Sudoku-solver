@@ -1,4 +1,4 @@
-# Applications Architecture
+# Application Architecture
 
 ## Package structure
 
