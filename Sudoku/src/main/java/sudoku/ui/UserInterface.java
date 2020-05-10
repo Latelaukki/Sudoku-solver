@@ -201,6 +201,7 @@ public class UserInterface {
                 case 7:                 
                     manager = new FileManagement();
                     manager.createFile();
+                    System.out.println("New 'sudoku' file created");
                     System.out.println("Name of the game: ");
                     name = reader.nextLine();
                     if (manager.checkIfGameExists(name)) {
