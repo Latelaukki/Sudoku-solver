@@ -9,7 +9,6 @@ The application has three package layers with four packages in total. Sudoku.ui 
 
 User interface is in a text format in this release. Interface starts by telling all the commands there are available for the user.  Interface does not have different profiles, although it is computer specific when it comes to the file system. More of this in the file section.
 
-Interface is mostly isolated from logic functions. 
 
 ## Application logic
 
@@ -19,13 +18,17 @@ Sudoku is quite simple game and therefore the main data structure is also simple
 
 Grid class includes methods for editing the puzzle directly by adding or removing numbers from the puzzle. This methods are setNumber/addConstant, which depends whether user wants to insert their own guess or already known number, and deleteNumber.
 
+The most import function for user is the solver. This sequence diagram shows one example communication path between classes, after inserting numbers.
+
+![sequence diagram1](https://github.com/Latelaukki/ot-harjoitustyo/blob/master/Documentation/images/r-3.png)
+
 ## Files and game data
 
 User is able to save their progress. This can be done via FileManagement class which creates a file named "sudoku" in users project's folder if it's not already created. There are no profiles in the game, so the database is saved on user's computer. User can save or load their data from the database which is created by using SQL.
 
-## Sequence diagram
+The program checks the possible errors and saves the game in Games table and points to Points table by game_id or loads points into new ArrayList. More precisely:
 
-![sequence diagram](https://github.com/Latelaukki/ot-harjoitustyo/blob/master/Documentation/images/r-3.png)
+![sequence diagram2](https://github.com/Latelaukki/ot-harjoitustyo/blob/master/Documentation/images/r-5.png)
 
 
 ## Weak points in the structure
