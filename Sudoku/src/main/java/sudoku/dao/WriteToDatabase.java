@@ -13,7 +13,6 @@ public class WriteToDatabase  {
         s.execute("CREATE TABLE Games (id INTEGER PRIMARY KEY, name TEXT)");
         s.execute("CREATE TABLE Points (id INTEGER PRIMARY KEY, game_id INTEGER, x INTEGER, y INTEGER, value INTEGER,"
                 + " constant INTEGER)");
-        System.out.println("A new database succesfully created.");
     }
     
     public void addNewGame(Connection db, String gameName) throws SQLException {

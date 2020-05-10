@@ -24,7 +24,7 @@ public class UserInterface {
         System.out.println("4 -- Solve");
         System.out.println("5 -- Empty");
         System.out.println("6 -- Load a game");
-        System.out.println("7 -- Save your puzzle");
+        System.out.println("7 -- Save the game");
         System.out.println("8 -- Exit\n");
         while(true) {
             System.out.println("Your command: ");
@@ -179,7 +179,7 @@ public class UserInterface {
                     try {
                         games = manager.searchForGames();
                     } catch (Exception e) {
-                        System.out.println("There are now saved games");
+                        System.out.println("There are no saved games");
                         break;
                     }
                     if (games.isEmpty()) {
@@ -211,8 +211,7 @@ public class UserInterface {
                         try {
                             manager.saveNewGame(name, sudoku.getPoints());
                         } catch (Exception e) {
-                            //System.out.println("Saving failed. Something weird happened.");
-                            System.out.println(e.getMessage());
+                            System.out.println("Don't save two times in a row. I mean, I couldn't fix this bug...");
                         }                      
                     }
                     break;
