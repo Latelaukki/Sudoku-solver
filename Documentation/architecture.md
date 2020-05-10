@@ -19,6 +19,10 @@ Sudoku is quite simple game and therefore the main data structure is also simple
 
 Grid class includes methods for editing the puzzle directly by adding or removing numbers from the puzzle. This methods are setNumber/addConstant, which depends whether user wants to insert their own guess or already known number, and deleteNumber.
 
+## Files and game data
+
+User is able to save their progress. This can be done via FileManagement class which creates a file named "sudoku" in users project's folder if it's not already created. There are no profiles in the game, so the database is saved on user's computer. User can save or load their data from the database which is created by using SQL.
+
 ## Sequence diagram
 
 ![sequence diagram](https://github.com/Latelaukki/ot-harjoitustyo/blob/master/Documentation/images/r-3.png)
@@ -33,3 +37,7 @@ There should a class in sudoku.logic package which handles all the operations be
 ### User interface
 
 Playing Sudoku with a text UI is definitely not optimal. If you really want to try to solve the puzzle yourself, you really need GUI for it. Therefore, it would probably be the first in line in further development.
+
+### Handling data
+
+SQL is pretty complicated way to store simple data. Therefore it would probably be better to use some other way to manage it. 
