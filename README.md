@@ -23,12 +23,12 @@ a graphical interface and let the application solve the sudoku automatically or 
 
 Executing tests
 
-mvn test
+*mvn test*
 
 
 Test coverage report
 
-mvn jacoco:report
+*mvn jacoco:report*
 
 Report can be viewed in target/site/jacoco/index.html
 
@@ -36,7 +36,7 @@ Report can be viewed in target/site/jacoco/index.html
 
 Command
 
-mvn package
+*mvn package*
 
 Generates jar-file to target-dictionary
 
@@ -44,7 +44,7 @@ Generates jar-file to target-dictionary
 
 JavaDoc can be generated with command
 
-mvn javadoc:javadoc
+*mvn javadoc:javadoc*
 
 JavaDoc can be viewed in target/site/apidocs/index.html
 
@@ -52,6 +52,6 @@ JavaDoc can be viewed in target/site/apidocs/index.html
 
 Style check with rules defined in checkstyle.xml
 
-mvn jxr:jxr checkstyle:checkstyle
+*mvn jxr:jxr checkstyle:checkstyle*
 
 Possible errors can be viewed in target/site/checkstyle.html
