@@ -11,6 +11,14 @@ User interface is in a text format in this release. Interface starts by telling 
 
 Interface is mostly isolated from logic functions. 
 
+## Application logic
+
+Sudoku is quite simple game and therefore the main data structure is also simple. Classes Grid and Point create the main structure which all the other classes refer either directly or between indirectly.
+
+![main classes](https://github.com/Latelaukki/ot-harjoitustyo/blob/master/Documentation/images/r-4.png)
+
+Grid class includes methods for editing the puzzle directly by adding or removing numbers from the puzzle. This methods are setNumber/addConstant, which depends whether user wants to insert their own guess or already known number, and deleteNumber.
+
 ## Sequence diagram
 
 ![sequence diagram](https://github.com/Latelaukki/ot-harjoitustyo/blob/master/Documentation/images/r-3.png)
@@ -18,5 +26,10 @@ Interface is mostly isolated from logic functions.
 
 ## Weak points in the structure
 
-There should a class in sudoku.logic package which handles all the operations between sudoku.ui and sudoku.domain for modifying only the data structures wihtout solving it.
-However, there are a lot of error handlers which probably should need their own class.
+### Packages and classes
+
+There should a class in sudoku.logic package which handles all the operations between sudoku.ui and sudoku.domain for modifying only the data structures without solving it. A "Game" class or something would definitely improve the structure. Also, because there is no single class for all the user functions, there is little weird relation between toString() in sudoku.domain and Sudoku.ToString in sudoku.logic. In addition, there are a lot of error handlers which probably should need their own class. 
+
+### User interface
+
+Playing Sudoku with a text UI is definitely not optimal. If you really want to try to solve the puzzle yourself, you really need GUI for it. Therefore, it would probably be the first in line in further development.
