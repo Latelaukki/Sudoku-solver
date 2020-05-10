@@ -23,8 +23,7 @@ a graphical interface and let the application solve the sudoku automatically or 
 
 Executing tests
 
-*mvn test*
-
+  *mvn test*  
 
 Test coverage report
 
@@ -36,7 +35,9 @@ Report can be viewed in target/site/jacoco/index.html
 
 Command
 
-*mvn package*
+<div class="bg-green-light mb-2">
+  *mvn package*
+</div>
 
 Generates jar-file to target-dictionary
 
