@@ -4,7 +4,7 @@ package sudoku.ui;
 public class Main {
 
     public static void main(String[] args) {
-        Interface ui = new Interface();
+        UserInterface ui = new UserInterface();
         ui.start();
     }   
 }   

@@ -12,7 +12,7 @@ public class Grid {
         points = new ArrayList<>();
         for (int y = 0; y < 9; y++) {
             for (int x = 0; x < 9; x++) {
-                    points.add(new Point(y, x, 0));
+                points.add(new Point(y, x, 0));
             }
         }
     }
@@ -53,33 +53,13 @@ public class Grid {
         return this.points;
     }
     
-    public void printSudoku() {
-        for (int i = 0; i < 9; i++) {
-            if (i % 3 == 0) {
-                System.out.println(" ----------------------------- ");
-            }
-            for (int j = 0; j < 9; j++) {
-                if (j % 3 == 0) {
-                    System.out.print("|");
-                }
-                if (points.get(i * 9 + j).getValue() == 0) {
-                    System.out.print(" x ");
-                } else {
-                    if (points.get(i * 9 + j).isConstant()) {
-                        System.out.println("*" + points.get(i * 9 + j).getValue() + "*");
-                    } else {
-                        System.out.print(" " + points.get(i * 9 + j).getValue() + " ");  
-                    }
-                }
-            }
-            System.out.println("|");
-        }
-        System.out.println(" ----------------------------- ");
+    public void setPoints(ArrayList<Point> points) {
+        this.points = points;
     }
     
     @Override
     public String toString() {
-        SudokuToString toStr= new SudokuToString(points);
+        SudokuToString toStr = new SudokuToString(points);
         String sudoku = toStr.getString();
         return sudoku;
     }
